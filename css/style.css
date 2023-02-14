@@ -11,6 +11,14 @@
   --claro: #edf2f4;
   --plomo: #8d99ae;
 }
+@font-face {
+  font-family: valentineDay;
+  src: url(Valentine\ Cute.ttf);
+}
+@font-face {
+  font-family: twoHearts;
+  src: url(Two\ of\ Hearts.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +50,7 @@ nav {
   flex-wrap: wrap;
 }
 nav h1 {
+  font-family: twoHearts;
   padding: 20px;
   color: var(--rojo-claro);
   background-color: transparent;
@@ -56,6 +65,7 @@ nav h1.active {
 
 /*FIN NAV*/
 .title-2{
+  font-family: valentineDay;
   margin-top: 15px;
   font-size: 28px;
 }
@@ -102,6 +112,7 @@ nav h1.active {
    box-shadow: 0 0 20px #5b372a;
 } */
 .frente h3 {
+  /* font-family: twoHearts; */
   position: absolute;
   font-size: 35px;
   color: var(--claro);
@@ -115,8 +126,8 @@ nav h1.active {
   padding: 10px;
   text-align: center;
   color: var(--oscuro);
-  font-size: 23px;
-  font-family: "Courier New", Courier, monospace;
+  font-size: 19px;
+  font-family: 'Courier New', Courier, monospace;;
 }
 .reves p {
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
